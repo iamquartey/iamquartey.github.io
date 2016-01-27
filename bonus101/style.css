@@ -1,0 +1,357 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+
+@font-face {
+	font-family: 'WisdomScript';
+	src: url('wisdom script.otf') format('opentype');
+}
+	
+h1 { 
+    display: block;
+    font-size: 1.7em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}	
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#site_container {
+	background: url('background.png') center top no-repeat;
+	background-size: cover;
+	margin: auto;
+	width: 60em;
+}
+
+#skillcrush_ribbon {
+	background: url('header.png') center no-repeat;
+	background-size: 25em;
+	height: 7em;
+}
+
+#skillcrush_ribbon span {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-size: .7em;
+	color: #ffffff;
+	position: relative;
+	top: 6.3em;
+	left: 35.2em;
+}
+
+#intro {
+	width: 45em;
+	margin: auto;
+	color: rgb(246, 81, 93);
+	text-align: center;
+	line-height: 2.2em;
+}
+
+#content {
+	background: url('content.png') center top no-repeat;
+	background-size: 50em;
+	position: relative;
+	bottom: -1.25em;
+	height: 20em;
+	margin: 0em;
+	padding: 0em;
+	text-align: center;
+	z-index: 2;
+}
+
+#content h2 {
+	font-family: 'WisdomScript';
+	font-weight: normal;
+	position: relative;
+	top: 2em;
+}
+
+#content hr {
+	position: relative;
+	top: 3.5em;
+	width: 43.9em;
+	border-top-style: dashed;
+	border-top-color: rgb(230, 205, 167);
+	border-bottom-style: solid;
+	border-bottom-color: rgb(237,230,218);
+	border-left-style: none;
+	border-right-style: none;
+}
+
+#content h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	color: rgb(246, 81, 93);
+	position: relative;
+	text-transform: uppercase;
+	top: 3em;
+}
+
+
+#content form {
+	position: relative;
+	top: 6em;
+	height: 3.2em;
+}
+
+#text_emailsign, #button_signup {
+	margin: 0em;
+	padding: .8em;
+	font-size: 1em;
+	position: relative;
+}
+
+#text_emailsign {
+	border-radius: 5px 0px 0px 5px;
+	border: 2px solid rgb(213, 202, 184);
+	border-right: none;
+	width: 25em;
+	left: .2em;
+}
+
+#button_signup {
+	border-radius: 0px 5px 5px 0px;
+	background: rgb(246, 81, 93);
+	border: 2px solid rgb(213, 202, 184);
+	border-left: none;
+	width: 12em;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+	right: .2em;
+}
+
+#text_email, #text_name, #text_contactreason, #msg_button, #footer_form textarea {
+	margin: .2em .2em .2em 0em;
+	border-radius: 3px;
+	border: none;
+	padding: .5em;
+}
+
+#text_email, #text_name {
+	width: 12em;
+}
+
+#text_contactreason, #footer_form textarea {
+	box-sizing: border-box;
+	width: 26.5em;
+}
+
+footer textarea {
+	height: 6em;
+	resize: none;
+	overflow: auto;
+}
+
+#msg_button {
+	position: relative;
+	left: 18.78em;
+	background: rgb(220, 193, 153);
+	font-weight: bold;
+	color: rgb(51, 51, 51);
+}
+
+#phantom_blog {
+	box-shadow: 0px -10px 8px -5px rgb(222,222,221);
+	margin: auto;
+	padding: 0;
+	width: 43em;
+	z-index: 4;
+}
+
+#blog_block {
+	height: 23em;
+	background: rgb(246, 81, 93);
+	margin: 0em;
+	padding: 0em;
+	position: relative;
+	z-index: 6;
+}
+
+#blog_block hr {
+	height: 1px;
+	border-width: 0;
+	color: #000;
+	background-color: #000;
+}
+
+#blog_block h2 {
+	font-family: 'WisdomScript';
+	font-weight: normal;
+	color: rgb(51,51,51);
+	text-shadow: 0px 2px 0px rgb(170,47,56);
+	text-align: center;
+}
+
+#blog_posts{
+	position: relative;
+	top: -4%;
+	width: 85%;
+	left: 7.5%;
+}
+
+.blog_title {
+	font-family: 'Noticia Text', serif;
+	font-size: 1em;
+}
+
+.blog_text {
+	font-family: Georgia, serif;
+	color: rgb(51,51,51);
+	width: 29%;
+	float: left;
+	margin: 0%;
+	padding: 2%;
+}
+
+.blog_text p {
+	font-size: .7em;
+	line-height: 1.7em;
+}
+
+.article_links{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: .9em;
+}
+
+.blog_author {
+	font-size: .5em;
+}
+
+footer{
+	height: 22em;
+	background: rgb(51, 51, 51);
+	margin: 0em;
+	padding: 0em;
+}
+
+#about {
+	float: left;
+	left: 2em;
+}
+
+#footer_form {
+	float: right;
+}
+
+#footer_form form {
+	box-sizing: border-box;
+}
+
+#about, #footer_form {
+	margin: 2em 1em 0em 2em;
+	width: 26em;
+	color: rgb(255,240,218);
+	position: relative;
+}
+
+#about h2, #footer_form h2 {
+	font-family: 'WisdomScript';
+	font-weight: normal;
+	text-shadow: 0px 2px 0px rgb(124,114,102);
+}
+
+#about p {
+	font-family: Georgia, serif;
+	font-weight: normal;
+	font-size: .8em;
+	line-height: 1.7em;
+}
+
+#copyright{
+	padding: .5em;
+	background: rgb(246, 81, 93);
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: rgb(51, 51, 51);
+	font-size: .75em;
+}
