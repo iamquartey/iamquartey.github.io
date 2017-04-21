@@ -1,30 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/> -->
-  <title>Adnan Quartey | Web Developer</title>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-  <link type="text/css" rel="stylesheet" href="styleaq.css">
-  <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-	<div class="container">
-	<div id="content_block">
-		<h1>Adnan Quartey</h1>
-		<h3>Web Designer & Developer</h3>
-		<div id="p_wrapper">
-			<p>I'm a Web Designer and Front End Developer from Houston, Texas.</p>
-			<p>I currently work in IT Support and enjoy creating the right solution for my clients while providing great customer service.</p>
-			<p>When I'm not coding I enjoy spending time with my family, learning, reading sci-fi and fantasy books or watching a good movie or TV series.</p>
-			<ul id="social_list">
-				<li id="twitter"><a href="http://twitter.com/iamquartey" target="_BLANK"></a></li>
-			</ul>
-		</div>
-	</div>
-	<footer>
-		<p>Photo taken by<a href="http://www.henryhan.net/" target="_blank"> Henry Han </a><a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a></p>
-	</footer>
-	</div>
-</body>
-</html>
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
