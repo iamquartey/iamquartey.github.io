@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
+I'm a Web Designer and Front End Developer from Houston, Texas.
 
-A place to include any other types of information that you'd like to include about yourself.
+I currently work in IT Support and enjoy creating the right solution for my clients while providing great customer service.
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+When I'm not coding I enjoy spending time with my family, learning, reading sci-fi and fantasy books or watching a good movie or TV series.

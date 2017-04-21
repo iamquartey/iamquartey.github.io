@@ -99,7 +99,7 @@ body {
 
 #social_list {
 	height: 31px;
-	width: 96px;
+	width: 64px;
 	background: url('images/social.png');
 	margin: 1em 0em 0em 0em;
 	padding: 0px;
@@ -120,28 +120,12 @@ body {
 	width: 32px;
 }
 
-#instagram {
-	left: 0; width: 31px;
-}
-
 #twitter {
 	left: 32px; width: 31px;
 }
 
-#dribbble {
-	left: 65px; width: 31px;
-}
-
-#instagram:hover {
-	background: url('images/social.png') 0px -31px;
-}
-
 #twitter:hover {
 	background: url('images/social.png') -32px -31px;
-}
-
-#dribbble:hover {
-	background: url('images/social.png') -65px -31px;
 }
 
 footer {
