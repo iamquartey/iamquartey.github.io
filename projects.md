@@ -8,12 +8,9 @@ permalink: /projects/
 This page was a bonus assignment in a course I took in mid 2015.  We received a .psd file and were asked to recreate it as a webpage with HTML and CSS.  
 
 
-:sparkles: *Keep in mind I am using a free Heroku account for Ruby on Rails deployments, so my web apps are generally sleeping from inactivity.*
-### [Suggestotron Webapp](http://iamquartey-suggestotron.herokuapp.com) (Rails, Heroku)
-Ruby on Rails tutorial from Railsbridge
+*I was using a free Heroku account for Ruby on Rails deployments, but this is no longer an option. The sample projects were primarily Ruby on Rails demos that I adjusted in minor ways.  The projects are stored in my local git repo and have been removed from Heroku.  I have since stepped away from working on RoR projects.*
 
-### [Thinklist Webapp](http://iamquartey-thinklist.herokuapp.com) (Rails, Heroku)
-Ruby on Rails tutorial from Thinkful
+### [LinkDSG Supplies Rails 2-3 Update and UI Refresh - 2018-2019](https://supplies.linkdsg.com/) (Rails, Ruby, SQL, HTML, CSS, JavaScript)
+*This project has been replaced by another product since I worked on it.
 
-### [Kanban Webapp](http://iamquartey-kanban.herokuapp.com) (Rails, Devise, Materialize.css, Heroku)
-Ruby on Rails tutorial from Deveo
+I updated the project from Rails 2.x to Rails 3.x, correcting quite a few errors in the process and removing unused code paths.  I also worked with a web designer to integrate the newly approved layout into the legacy Rails app.
